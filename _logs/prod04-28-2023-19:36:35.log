@@ -1,0 +1,1027 @@
+building webpack for cmi-acim
+
+> cmi-acim@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m44279e65b6fdf9f810b4[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3186[39m[22mms
+Built at: 04/28/2023 [1m7:36:39 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m  10.1 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         page
+        [1m[32mpage~transcript.js[39m[22m   152 KiB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         page~transcript
+             [1m[32mtranscript.js[39m[22m  2.17 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m657 KiB[39m[22m       [1m1[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [1] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [6] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [8] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 7.93 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 5.99 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 271 bytes[1m[32m [built][39m[22m
+ [27] [1m../cmi-common/src/js/modules/_ajax/quotes.js[39m[22m 2.06 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [29] [1m./src/js/constants.js[39m[22m 1.07 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [35] [1m./src/js/modules/_contents/toc.js[39m[22m 14.8 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [37] [1m../cmi-common/node_modules/gsap/index.js + 10 modules[39m[22m 292 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      |    11 modules
+ [49] [1m../cmi-common/src/js/modules/_page/startup.js + 17 modules[39m[22m 171 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      |     + 3 hidden modules
+ [50] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[113] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[114] [1m./src/js/transcript.js[39m[22m 1.43 KiB {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[283] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[284] [1m./src/js/page.js + 6 modules[39m[22m 23.1 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.06 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 8.31 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 278 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (657 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (811 KiB)
+      vendors~page~transcript.js
+      page~transcript.js
+      transcript.js
+  page (819 KiB)
+      vendors~page~transcript.js
+      page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-oe
+
+> cmi-oe@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m16baf953c9b4959f3c67[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3432[39m[22mms
+Built at: 04/28/2023 [1m7:36:43 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   168 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   169 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m./src/js/modules/_config/config.js + 3 modules[39m[22m 19.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 7.89 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 187 bytes[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/wbkey.js[39m[22m 9.57 KiB[1m[32m [built][39m[22m
+ [23] [1m../cmi-common/node_modules/gsap/index.js + 10 modules[39m[22m 292 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    11 modules
+ [26] [1m../cmi-common/src/js/modules/_ajax/quotes.js[39m[22m 2.06 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [31] [1m./src/js/constants.js[39m[22m 1.13 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [37] [1m./src/js/modules/_contents/toc.js[39m[22m 14.6 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [44] [1m../cmi-common/src/js/modules/_page/startup.js + 17 modules[39m[22m 171 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      |     + 3 hidden modules
+ [45] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[144] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[303] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[304] [1m./src/js/transcript.js + 6 modules[39m[22m 32.9 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 1.04 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[305] [1m./src/js/page.js + 6 modules[39m[22m 16 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.04 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 298 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (831 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (822 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-ftcm
+
+> cmi-ftcm@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Hash: [1m98437eb4d554304dce1c[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m3376[39m[22mms
+Built at: 04/28/2023 [1m7:36:48 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   157 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   158 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [12] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 6.23 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 4.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 146 bytes[1m[32m [built][39m[22m
+ [24] [1m../cmi-common/node_modules/gsap/index.js + 10 modules[39m[22m 292 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    11 modules
+ [32] [1m./src/js/constants.js[39m[22m 1.03 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [38] [1m./src/js/modules/_contents/toc.js[39m[22m 5.86 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [45] [1m../cmi-common/src/js/modules/_page/startup.js + 16 modules[39m[22m 170 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/list.js[39m[22m 17.3 KiB[1m[32m [built][39m[22m
+      |     + 2 hidden modules
+ [46] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[145] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[304] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[305] [1m./src/js/transcript.js + 6 modules[39m[22m 32.8 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 867 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[306] [1m./src/js/page.js + 6 modules[39m[22m 15.8 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 973 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 299 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (821 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (812 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-col
+
+> cmi-col@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m99cc1bc3940f6da65b85[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m3150[39m[22mms
+Built at: 04/28/2023 [1m7:36:52 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m  9.48 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         page
+        [1m[32mpage~transcript.js[39m[22m   147 KiB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         page~transcript
+             [1m[32mtranscript.js[39m[22m  1.83 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m1[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [1] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [6] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [8] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [12] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 5.48 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 3.45 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 351 bytes[1m[32m [built][39m[22m
+ [25] [1m./src/js/constants.js[39m[22m 967 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [28] [1m../cmi-common/src/js/modules/_ajax/quotes.js[39m[22m 2.06 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [35] [1m./src/js/modules/_contents/toc.js[39m[22m 5.84 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [50] [1m../cmi-common/src/js/modules/_page/startup.js + 16 modules[39m[22m 170 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/list.js[39m[22m 17.3 KiB[1m[32m [built][39m[22m
+      |     + 2 hidden modules
+ [51] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[113] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[114] [1m./src/js/transcript.js[39m[22m 789 bytes {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[267] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[268] [1m./src/js/page.js + 6 modules[39m[22m 15.6 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.09 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 802 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 262 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (803 KiB)
+      vendors~page~transcript.js
+      page~transcript.js
+      transcript.js
+  page (811 KiB)
+      vendors~page~transcript.js
+      page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-acol
+
+> cmi-acol@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1me4f8251ed83cb931d20c[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3455[39m[22mms
+Built at: 04/28/2023 [1m7:36:56 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   158 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   161 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  36.1 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [6] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [7] [1m../cmi-common/src/js/globals.js[39m[22m 420 bytes {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [13] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 5.59 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 3.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 190 bytes[1m[32m [built][39m[22m
+ [19] [1m./src/js/modules/_config/key.js[39m[22m 8.46 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [34] [1m./src/js/constants.js[39m[22m 1.09 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [41] [1m./src/js/modules/_contents/toc.js[39m[22m 9.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [47] [1m../cmi-common/src/js/modules/_page/startup.js + 17 modules[39m[22m 171 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      |     + 3 hidden modules
+ [48] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[151] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[309] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[310] [1m./src/js/transcript.js + 7 modules[39m[22m 36.2 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 957 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_acol/acol.js[39m[22m 3.33 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[311] [1m./src/js/page.js + 6 modules[39m[22m 16.2 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 1.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 306 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (852 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (813 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-jsb
+
+> cmi-jsb@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m4bacabf1c13d94a2587b[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3302[39m[22mms
+Built at: 04/28/2023 [1m7:37:01 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   135 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   137 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [10] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 5.71 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 3.93 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 105 bytes[1m[32m [built][39m[22m
+ [23] [1m../cmi-common/node_modules/gsap/index.js + 10 modules[39m[22m 292 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    11 modules
+ [26] [1m../cmi-common/src/js/modules/_ajax/quotes.js[39m[22m 2.06 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [31] [1m./src/js/modules/_config/key.js[39m[22m 6.98 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [32] [1m./src/js/constants.js[39m[22m 1020 bytes {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [37] [1m./src/js/modules/_contents/toc.js[39m[22m 4.8 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [44] [1m../cmi-common/src/js/modules/_page/startup.js + 17 modules[39m[22m 171 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      |     + 3 hidden modules
+[141] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[301] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[302] [1m./src/js/transcript.js + 6 modules[39m[22m 32.7 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 785 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[303] [1m./src/js/page.js + 6 modules[39m[22m 22.4 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 868 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 7.84 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 296 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (799 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (790 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-raj
+
+> cmi-raj@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1mee8e9904ea72da2c189d[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3586[39m[22mms
+Built at: 04/28/2023 [1m7:37:05 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   158 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   159 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [11] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 6.27 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 3.76 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 857 bytes[1m[32m [built][39m[22m
+ [22] [1m./src/js/modules/_config/key.js[39m[22m 13 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [24] [1m../cmi-common/node_modules/gsap/index.js + 10 modules[39m[22m 292 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    11 modules
+ [32] [1m./src/js/constants.js[39m[22m 1.52 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [37] [1m./src/js/modules/_contents/toc.js[39m[22m 7.73 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [44] [1m../cmi-common/src/js/modules/_page/startup.js + 17 modules[39m[22m 171 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/driver.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      |     + 3 hidden modules
+ [45] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[144] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[303] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[304] [1m./src/js/transcript.js + 6 modules[39m[22m 32.8 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 867 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[305] [1m./src/js/page.js + 6 modules[39m[22m 22.9 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.04 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 8.09 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 298 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (822 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (813 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-wom
+
+> cmi-wom@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m10651b32e0951bdaea35[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3466[39m[22mms
+Built at: 04/28/2023 [1m7:37:10 PM[39m[22m
+                           [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                         [1m[32mpage.js[39m[22m  12.2 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         page
+                   [1m[32mpage~topic.js[39m[22m   149 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page~topic
+                        [1m[32mtopic.js[39m[22m  3.63 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         topic
+                   [1m[32mtranscript.js[39m[22m   161 KiB    [1m4, 1[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~topic~transcript.js[39m[22m   [1m[33m657 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~topic~transcript
+           [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m5[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~topic~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~topic~transcript.js[39m[22m [1m[32mpage~topic.js[39m[22m [1m[32mpage.js[39m[22m
+Entrypoint [1mtopic[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~topic~transcript.js[39m[22m [1m[32mpage~topic.js[39m[22m [1m[32mtopic.js[39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+ [12] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 7.56 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 5.6 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 298 bytes[1m[32m [built][39m[22m
+ [22] [1m./src/js/constants.js[39m[22m 1.22 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+ [27] [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+ [29] [1m./src/js/modules/_contents/toc.js[39m[22m 5.93 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+ [37] [1m../cmi-common/src/js/modules/_page/startup.js + 13 modules[39m[22m 153 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/list.js[39m[22m 17.3 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/annotate.js[39m[22m 27.8 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/selection.js[39m[22m 9.63 KiB[1m[32m [built][39m[22m
+ [38] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[152] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+[326] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[327] [1mmulti ./src/js/topic.js[39m[22m 28 bytes {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[328] [1m./src/js/transcript.js + 7 modules[39m[22m 33.2 KiB {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 1.05 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_video/acq.js[39m[22m 221 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[329] [1m./src/js/page.js + 6 modules[39m[22m 18.1 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.29 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 3.02 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+[330] [1m./src/js/topic.js + 2 modules[39m[22m 4.88 KiB {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/topic.js[39m[22m 1.06 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/topics.js[39m[22m 3.13 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/frontMatter.js[39m[22m 649 bytes[1m[32m [built][39m[22m
+    + 323 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~topic~transcript.js (657 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (826 KiB)
+      vendors~page~topic~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (818 KiB)
+      vendors~page~topic~transcript.js
+      page~topic.js
+      page.js
+  topic (810 KiB)
+      vendors~page~topic~transcript.js
+      page~topic.js
+      topic.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-pwom
+
+> cmi-pwom@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1md5de7e2c935b607f25ae[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m3581[39m[22mms
+Built at: 04/28/2023 [1m7:37:14 PM[39m[22m
+                     [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                   [1m[32mpage.js[39m[22m   166 KiB       [1m1[39m[22m  [1m[32m[emitted][39m[22m         page
+             [1m[32mtranscript.js[39m[22m   167 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~transcript
+     [1m[32mvendors~transcript.js[39m[22m  7.64 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         vendors~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+  [0] [1m../cmi-common/src/js/modules/_language/lang.js[39m[22m 2.82 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_util/url.js[39m[22m 3.69 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [12] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 6.42 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 4.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+ [31] [1m./src/js/constants.js + 1 modules[39m[22m 1.53 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/constants.js[39m[22m 1.25 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_extension/help.js[39m[22m 276 bytes[1m[32m [built][39m[22m
+ [39] [1m./src/js/modules/_contents/toc.js[39m[22m 5.86 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [46] [1m../cmi-common/src/js/modules/_page/notes.js[39m[22m 1.6 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [47] [1m./src/js/notes.js[39m[22m 204 bytes {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [48] [1m./src/js/lang.js[39m[22m 7.71 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+ [49] [1m../cmi-common/src/js/modules/_page/startup.js + 15 modules[39m[22m 162 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/topics.js[39m[22m 912 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_user/cmi.js[39m[22m 4.01 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/list.js[39m[22m 17.3 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/annotate.js[39m[22m 27.8 KiB[1m[32m [built][39m[22m
+      |     + 1 hidden module
+ [50] [1m../cmi-common/src/js/modules/_search/search.js + 5 modules[39m[22m 45.3 KiB {[1m[33m1[39m[22m} {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/search.js[39m[22m 18.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/search.js[39m[22m 341 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/searchResults.js[39m[22m 2.03 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/show.js[39m[22m 7.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/navigator.js[39m[22m 14.9 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_search/format.js[39m[22m 1.95 KiB[1m[32m [built][39m[22m
+[149] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[308] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+[309] [1m./src/js/transcript.js + 8 modules[39m[22m 34.9 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 1.26 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_video/acq.js[39m[22m 221 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m 1.34 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_forms/contact.js[39m[22m 1.46 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/mediaelement.js[39m[22m 6.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/capture.js[39m[22m 14.7 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/focus.js[39m[22m 7.75 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/audio.js[39m[22m 603 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_audio/captureData.js[39m[22m 772 bytes[1m[32m [built][39m[22m
+[310] [1m./src/js/page.js + 6 modules[39m[22m 24.1 KiB {[1m[33m1[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 1.32 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/events.js[39m[22m 5.38 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 8.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/randomQuote.js[39m[22m 2.41 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/share.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/styles.js[39m[22m 414 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_topics/message.js[39m[22m 766 bytes[1m[32m [built][39m[22m
+    + 303 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (830 KiB)
+      vendors~page~transcript.js
+      vendors~transcript.js
+      transcript.js
+  page (821 KiB)
+      vendors~page~transcript.js
+      page.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+building webpack for cmi-www
+
+> cmi-www@0.1.0 base:prod:webpack
+> webpack --mode production
+
+Hash: [1m0caa816690865e59e493[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m3014[39m[22mms
+Built at: 04/28/2023 [1m7:37:19 PM[39m[22m
+                             [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                           [1m[32mpage.js[39m[22m  2.39 KiB       [1m2[39m[22m  [1m[32m[emitted][39m[22m         page
+        [1m[32mpage~profile~transcript.js[39m[22m  75.1 KiB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         page~profile~transcript
+                        [1m[32mprofile.js[39m[22m  33.1 KiB       [1m3[39m[22m  [1m[32m[emitted][39m[22m         profile
+                     [1m[32mtranscript.js[39m[22m  2.55 KiB       [1m4[39m[22m  [1m[32m[emitted][39m[22m         transcript
+[1m[33mvendors~page~profile~transcript.js[39m[22m   [1m[33m655 KiB[39m[22m       [1m1[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  vendors~page~profile~transcript
+Entrypoint [1mtranscript[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mtranscript.js[39m[22m
+Entrypoint [1mpage[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mpage.js[39m[22m
+Entrypoint [1mprofile[39m[22m [1m[33m[big][39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mprofile.js[39m[22m
+  [4] [1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m 4.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [5] [1m../cmi-common/src/js/modules/_util/store.js[39m[22m 3.67 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [9] [1m../cmi-common/src/js/modules/_ajax/annotation.js[39m[22m 6.08 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [10] [1m../cmi-common/src/js/modules/_util/sanitize.js[39m[22m 137 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [16] [1m./src/js/constants.js[39m[22m 544 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [24] [1m./src/js/modules/_contents/toc.js[39m[22m 5 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [25] [1m./src/js/modules/_config/config.js + 2 modules[39m[22m 4.51 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/config.js[39m[22m 2.73 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_ajax/config.js[39m[22m 1.66 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_config/status.js[39m[22m 107 bytes[1m[32m [built][39m[22m
+ [31] [1m../cmi-common/src/js/modules/_page/startup.js + 13 modules[39m[22m 152 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/startup.js[39m[22m 6.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_page/help.js[39m[22m 3.38 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m 403 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/shareByEmail.js[39m[22m 5.97 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bookmark.js[39m[22m 20.1 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_share/share.js[39m[22m 4.94 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/clipboard.js[39m[22m 1.2 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/topics.js[39m[22m 8.67 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/localStore.js[39m[22m 11.4 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/bmnet.js[39m[22m 4.96 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/navigator.js[39m[22m 30 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/list.js[39m[22m 17.3 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/annotate.js[39m[22m 27.8 KiB[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_bookmark/selection.js[39m[22m 9.63 KiB[1m[32m [built][39m[22m
+ [32] [1m./src/js/modules/_about/about.js + 1 modules[39m[22m 10.7 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_about/about.js[39m[22m 1.39 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_util/driver.js[39m[22m 9.35 KiB[1m[32m [built][39m[22m
+[118] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+[273] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+[274] [1mmulti ./src/js/profile.js[39m[22m 28 bytes {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+[301] [1m./src/js/profile.js + 3 modules[39m[22m 43.6 KiB {[1m[33m3[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/profile.js[39m[22m 807 bytes[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_user/email.js[39m[22m 5.48 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_user/topicmgr.js[39m[22m 34 KiB[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_user/source.js[39m[22m 3.25 KiB[1m[32m [built][39m[22m
+[302] [1m./src/js/transcript.js + 2 modules[39m[22m 2.63 KiB {[1m[33m4[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/transcript.js[39m[22m 919 bytes[1m[32m [built][39m[22m
+      | [1m../cmi-common/src/js/modules/_video/acq.js[39m[22m 221 bytes[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_forms/contact.js[39m[22m 1.47 KiB[1m[32m [built][39m[22m
+[303] [1m./src/js/page.js + 1 modules[39m[22m 1.83 KiB {[1m[33m2[39m[22m}[1m[32m [built][39m[22m
+      | [1m./src/js/page.js[39m[22m 531 bytes[1m[32m [built][39m[22m
+      | [1m./src/js/modules/_forms/subscribe.js[39m[22m 1.28 KiB[1m[32m [built][39m[22m
+    + 297 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  vendors~page~profile~transcript.js (655 KiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  transcript (732 KiB)
+      vendors~page~profile~transcript.js
+      page~profile~transcript.js
+      transcript.js
+  page (732 KiB)
+      vendors~page~profile~transcript.js
+      page~profile~transcript.js
+      page.js
+  profile (763 KiB)
+      vendors~page~profile~transcript.js
+      page~profile~transcript.js
+      profile.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+-------- webpack complete -----------
+building jekyll for cmi-acim
+
+> cmi-acim@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-acim/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-acim
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acim
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.18 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-oe
+
+> cmi-oe@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-oe/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-oe
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acimoe
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.664 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-col
+
+> cmi-col@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-col/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-col
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/col
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.704 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-ftcm
+
+> cmi-ftcm@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-ftcm/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-ftcm
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/ftcm
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.249 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-acol
+
+> cmi-acol@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-acol/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-acol
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acol
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.508 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-jsb
+
+> cmi-jsb@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-jsb/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-jsb
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/jsb
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.098 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-raj
+
+> cmi-raj@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-raj/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-raj
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/raj
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 3.92 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-wom
+
+> cmi-wom@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-wom/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-wom
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/wom
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.252 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-pwom
+
+> cmi-pwom@0.1.0 base:prod:jekyll
+> JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-pwom/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-pwom
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/pwom
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.032 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+-------- jekyll complete -----------
+
+Now, cd to cmi-www and run 'preview'
+$ npm run preview

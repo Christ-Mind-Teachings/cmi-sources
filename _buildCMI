@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ "$1" == "" ]; then
+  echo "enter 'dev' or 'prod'"
+  exit
+fi
+
+NOW=$(date +"%m-%d-%Y-%T")
+
+if [ "$1" == "dev" ]; then
+  echo "Building for development, Log: _logs/dev${NOW}.log"
+  ./_baseline.dev.sh &> _logs/dev${NOW}.log
+  less _logs/dev${NOW}.log
+elif [ "$1" == "prod" ]; then
+  echo "Building for production, log: _logs/prod${NOW}.log"
+  ./_baseline.prod.sh &> _logs/prod${NOW}.log
+  less _logs/prod${NOW}.log
+else
+  echo "enter 'dev' or 'prod'"
+fi
+

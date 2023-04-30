@@ -1,0 +1,19 @@
+{
+  "name": "sources",
+  "version": "1.0.0",
+  "description": "Group common files used by CMI sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "driver.js": "^0.9.8",
+    "lodash": "^4.17.21",
+    "scroll-into-view": "^1.16.2",
+    "sprintf-js": "^1.1.2",
+    "store": "^2.0.12",
+    "toastr": "^2.1.4"
+  }
+}

@@ -1,0 +1,501 @@
+building webpack for cmi-acim
+
+> cmi-acim@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m5d76b6a301dd7661093e[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m1859[39m[22mms
+Built at: 04/21/2023 [1m5:56:33 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m    30 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.6 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   436 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   713 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  11.1 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  9.81 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.69 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.89 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.05 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.81 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 949 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_config/config.js[39m[22m] 5.84 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.8 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 356 hidden modules
+building webpack for cmi-oe
+
+> cmi-oe@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m7f39a8d1d07bf02f4c93[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m2037[39m[22mms
+Built at: 04/21/2023 [1m5:56:36 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m    30 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.7 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   440 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   730 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  52.1 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  67.3 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.08 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.81 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 929 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.5 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.48 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 383 hidden modules
+building webpack for cmi-col
+
+> cmi-col@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Hash: [1m9da047c859631ad291ab[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m1866[39m[22mms
+Built at: 04/21/2023 [1m5:56:38 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  30.1 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.9 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   417 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   685 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  10.4 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  8.45 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 967 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 2.05 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 881 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_config/config.js[39m[22m] 3.45 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.41 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.13 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 339 hidden modules
+building webpack for cmi-ftcm
+
+> cmi-ftcm@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Hash: [1m557e21fab74e3a69296f[39m[22m
+Version: webpack [1m4.46.0[39m[22m
+Time: [1m1988[39m[22mms
+Built at: 04/21/2023 [1m5:56:41 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  30.1 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.9 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   419 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   687 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  51.9 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  67.9 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.03 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.84 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 881 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.41 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.27 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 382 hidden modules
+building webpack for cmi-acol
+
+> cmi-acol@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m15b438654e645b6b0ba9[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m2118[39m[22mms
+Built at: 04/21/2023 [1m5:56:44 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  30.1 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.6 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   421 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   687 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m    57 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  73.4 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m   184 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m   166 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.09 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.8 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_acol/acol.js[39m[22m] 3.33 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.41 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.3 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 426 hidden modules
+building webpack for cmi-jsb
+
+> cmi-jsb@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m8d9e1ff6c928cea1a54e[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m1879[39m[22mms
+Built at: 04/21/2023 [1m5:56:46 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  29.4 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.2 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   367 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   598 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  51.3 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  66.8 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1020 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.81 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 1010 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_config/config.js[39m[22m] 3.93 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.11 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.07 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 375 hidden modules
+building webpack for cmi-raj
+
+> cmi-raj@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1mc7e0d8a3db4fe818f9e9[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m1937[39m[22mms
+Built at: 04/21/2023 [1m5:56:49 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  29.9 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m  38.5 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   427 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   696 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  51.9 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m    67 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.52 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.8 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_bookmark/start.js[39m[22m] 929 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.35 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.21 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 382 hidden modules
+building webpack for cmi-wom
+
+> cmi-wom@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1mdbe4dcaa6bbdbc3e90c2[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m1942[39m[22mms
+Built at: 04/21/2023 [1m5:56:51 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m  30.7 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m    39 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   424 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   690 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  53.7 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  68.5 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.69 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.89 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/notes.js[39m[22m] 1.59 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_video/acq.js[39m[22m] 221 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 1.2 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.66 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.74 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 402 hidden modules
+building webpack for cmi-pwom
+
+> cmi-pwom@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m8eeca0d47c564e935037[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m1963[39m[22mms
+Built at: 04/21/2023 [1m5:56:54 PM[39m[22m
+                         [1mAsset[39m[22m      [1mSize[39m[22m                   [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                       [1m[32mpage.js[39m[22m    31 KiB                     [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                   [1m[32mpage.js.map[39m[22m    39 KiB                     [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~transcript.js[39m[22m   439 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~transcript
+        [1m[32mpage~transcript.js.map[39m[22m   710 KiB          [1mpage~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~transcript
+                 [1m[32mtranscript.js[39m[22m  56.9 KiB               [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+             [1m[32mtranscript.js.map[39m[22m  71.4 KiB               [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~transcript.js[39m[22m  1.67 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~transcript
+[1m[32mvendors~page~transcript.js.map[39m[22m  1.88 MiB  [1mvendors~page~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~transcript
+         [1m[32mvendors~transcript.js[39m[22m  53.6 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~transcript
+     [1m[32mvendors~transcript.js.map[39m[22m  51.5 KiB       [1mvendors~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~transcript
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mvendors~transcript.js[39m[22m [1m[32mvendors~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~transcript.js[39m[22m [1m[32mvendors~page~transcript.js.map[39m[22m [1m[32mpage~transcript.js[39m[22m [1m[32mpage~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_audio/audio.js[39m[22m] 1.34 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_language/lang.js[39m[22m] 2.82 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/notes.js[39m[22m] 1.59 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_search/search.js[39m[22m] 18.1 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_topics/events.js[39m[22m] 5.38 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/facebook.js[39m[22m] 342 bytes {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_video/acq.js[39m[22m] 221 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 1.66 KiB {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1.62 KiB {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 387 hidden modules
+building webpack for cmi-www
+
+> cmi-www@0.1.0 base:dev:webpack
+> webpack --mode development
+
+Hash: [1m96bb88b772c4a9845a53[39m[22m
+Version: webpack [1m4.42.1[39m[22m
+Time: [1m1599[39m[22mms
+Built at: 04/21/2023 [1m5:56:56 PM[39m[22m
+                                 [1mAsset[39m[22m      [1mSize[39m[22m                           [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m[1mChunk Names[39m[22m
+                               [1m[32mpage.js[39m[22m    11 KiB                             [1mpage[39m[22m  [1m[32m[emitted][39m[22m        page
+                           [1m[32mpage.js.map[39m[22m  10.4 KiB                             [1mpage[39m[22m  [1m[32m[emitted] [dev][39m[22m  page
+            [1m[32mpage~profile~transcript.js[39m[22m  70.4 KiB          [1mpage~profile~transcript[39m[22m  [1m[32m[emitted][39m[22m        page~profile~transcript
+        [1m[32mpage~profile~transcript.js.map[39m[22m   104 KiB          [1mpage~profile~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  page~profile~transcript
+                            [1m[32mprofile.js[39m[22m   182 KiB                          [1mprofile[39m[22m  [1m[32m[emitted][39m[22m        profile
+                        [1m[32mprofile.js.map[39m[22m   327 KiB                          [1mprofile[39m[22m  [1m[32m[emitted] [dev][39m[22m  profile
+                         [1m[32mtranscript.js[39m[22m  12.9 KiB                       [1mtranscript[39m[22m  [1m[32m[emitted][39m[22m        transcript
+                     [1m[32mtranscript.js.map[39m[22m  11.9 KiB                       [1mtranscript[39m[22m  [1m[32m[emitted] [dev][39m[22m  transcript
+    [1m[32mvendors~page~profile~transcript.js[39m[22m  1.23 MiB  [1mvendors~page~profile~transcript[39m[22m  [1m[32m[emitted][39m[22m        vendors~page~profile~transcript
+[1m[32mvendors~page~profile~transcript.js.map[39m[22m  1.42 MiB  [1mvendors~page~profile~transcript[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~page~profile~transcript
+                    [1m[32mvendors~profile.js[39m[22m   212 KiB                  [1mvendors~profile[39m[22m  [1m[32m[emitted][39m[22m        vendors~profile
+                [1m[32mvendors~profile.js.map[39m[22m   206 KiB                  [1mvendors~profile[39m[22m  [1m[32m[emitted] [dev][39m[22m  vendors~profile
+Entrypoint [1mtranscript[39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mvendors~page~profile~transcript.js.map[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js.map[39m[22m [1m[32mtranscript.js[39m[22m [1m[32mtranscript.js.map[39m[22m
+Entrypoint [1mpage[39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mvendors~page~profile~transcript.js.map[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js.map[39m[22m [1m[32mpage.js[39m[22m [1m[32mpage.js.map[39m[22m
+Entrypoint [1mprofile[39m[22m = [1m[32mvendors~page~profile~transcript.js[39m[22m [1m[32mvendors~page~profile~transcript.js.map[39m[22m [1m[32mvendors~profile.js[39m[22m [1m[32mvendors~profile.js.map[39m[22m [1m[32mpage~profile~transcript.js[39m[22m [1m[32mpage~profile~transcript.js.map[39m[22m [1m[32mprofile.js[39m[22m [1m[32mprofile.js.map[39m[22m
+[0] [1mmulti ./src/js/transcript.js[39m[22m 28 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[1] [1mmulti ./src/js/page.js[39m[22m 28 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[2] [1mmulti ./src/js/profile.js[39m[22m 28 bytes {[1m[33mprofile[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_language/lang.js[39m[22m] 2.82 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_page/startup.js[39m[22m] 4.77 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_user/netlify.js[39m[22m] 4.3 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/store.js[39m[22m] 3.62 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_util/url.js[39m[22m] 3.69 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m../cmi-common/src/js/modules/_video/acq.js[39m[22m] 221 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/constants.js[39m[22m] 544 bytes {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_about/about.js[39m[22m] 1.39 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/modules/_config/config.js[39m[22m] 2.73 KiB {[1m[33mpage~profile~transcript[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/page.js[39m[22m] 721 bytes {[1m[33mpage[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/profile.js[39m[22m] 876 bytes {[1m[33mprofile[39m[22m}[1m[32m [built][39m[22m
+[[1m./src/js/transcript.js[39m[22m] 1010 bytes {[1m[33mtranscript[39m[22m}[1m[32m [built][39m[22m
+    + 255 hidden modules
+-------- webpack complete -----------
+building jekyll for cmi-acim
+
+> cmi-acim@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-acim/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-acim
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acim
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.509 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-oe
+
+> cmi-oe@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-oe/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-oe
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acimoe
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.747 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-ftcm
+
+> cmi-ftcm@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-ftcm/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-ftcm
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/ftcm
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.084 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-col
+
+> cmi-col@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-col/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-col
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/col
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.217 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-acol
+
+> cmi-acol@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-acol/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-acol
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/acol
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.154 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-jsb
+
+> cmi-jsb@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-jsb/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-jsb
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/jsb
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.038 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-raj
+
+> cmi-raj@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-raj/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-raj
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/raj
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.816 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-wom
+
+> cmi-wom@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-wom/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-wom
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/wom
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.295 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+building jekyll for cmi-pwom
+
+> cmi-pwom@0.1.0 base:dev:jekyll
+> JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml
+
+Configuration file: /Users/rmercer/Projects/cmi/site/sources/cmi-pwom/_config.prod.yml
+            Source: /Users/rmercer/Projects/cmi/site/sources/cmi-pwom
+       Destination: /Users/rmercer/Projects/cmi/site/sources/cmi-www/t/pwom
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.231 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+-------- jekyll complete -----------
+Now, cd to cmi-www and run 'dev'
+$ npm run dev
